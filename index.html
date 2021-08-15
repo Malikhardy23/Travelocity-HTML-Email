@@ -1,0 +1,264 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>HTML Email</title>
+</head>
+<style type="text/css">
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+table{
+    border-spacing: 0;
+    padding: 0;
+    max-width: 600px;
+}
+
+img{
+    border: 0;
+}
+
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 0px;
+}
+
+.webkit{
+    max-width: 600px;
+}
+
+.logoImg{
+    background: url('https://ci3.googleusercontent.com/proxy/mwxWjKyJu6CHKduAW-9npDA3wqAckodH_v3or3O65PI7oSoGoG29Sl1s-IDONXdM-rIM95k1YXMPfdDRpbLdf8p-_cJCtgiwM3EwskfZ3hC3SCOOFB0EKmiiqpt2OrLB=s0-d-e1-ft#https://t.ac.travelocity.com/res/travelocity/20171109_New_TVLY_Logo_White.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.navbar a{
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 1px;
+    vertical-align: top;
+}
+
+.covidMessage{
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+}
+
+.emailImage{
+    background: url('https://ci3.googleusercontent.com/proxy/ObBHstnGia5zo1sBF_Q9TB_lAzCymG4PbgU-4yyP6yBcTq4uKYm674F5I_SBpnl3EyJwZHIJyQKv0BeNzQBN5skwBSycxdKYOmy4uqleWYXgjwCtO7_jhmbeMLR6rxnpYXv0gsFK-GthVm4FyxmclkSc9OwFWFY=s0-d-e1-ft#http://t.ac.travelocity.com/res/travelocity/TVLY_WW_Curated_emhero_1200x670TVLY_Curated_American.jpg');
+    height: 330px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.viewFlights{
+    padding: 5px;
+    color: #fff;
+    background-color: transparent;
+    border-top-color: #80a0ba;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.galleryImg1{
+    background: url('https://ci5.googleusercontent.com/proxy/8ZikxuNY-NSw6aL7BJ6T3aEq9N20Tp6C-TP5qA4z7W4GVZuRY-7QF2-DjomsQEdkkzE2F6chUWMEvqPbkxp52FOkf8vMaizTB-8acSsatwsL1EwtSPNkASapgQ=s0-d-e1-ft#http://t.ac.travelocity.com/res/img/468EFB27FD898836DCFA51B0A9610451.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.galleryImg2{
+    background: url('https://ci4.googleusercontent.com/proxy/3hUs1kUwLoRP1NLpOxTRs9FTfH9GmkN-1hHoKq6O_Jbff9n8Wli9oZQUh8b7y40YrdtuQdnmVdadv5v7n7EoKjQd07-eY7z1ah2nlmNNV-70phixmsvEGDG7eQ=s0-d-e1-ft#http://t.ac.travelocity.com/res/img/B4E1AE398881A78D387E171C4CE2C171.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.galleryImg3{
+    background: url('https://ci6.googleusercontent.com/proxy/gfLNfpHKLDyslQZAPT7dGByI6HDq0wbY1ZAwZI6w6oIqS8e74xvnmmLzSMlnk1J1kfs8lGRBRjsjkfcwWWrtb-WoEDZ8N_uzVwa94tqnOZNdzMdsOsyAI1ER5A=s0-d-e1-ft#http://t.ac.travelocity.com/res/img/06E3E2BB83EA415A07BA20F52FCAA59E.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.galleryImg4{
+    background: url('https://ci5.googleusercontent.com/proxy/_sZwUTuwp9l8dU9IYcgiezvDW1IP1Kvmo9MWYEJy_O4o6B4c3qaSEW1J7hzGjwZ40S9NQb5KSAEsYRkQ3yh3InpFbHTZWCfeNolbLeIdCzeEUo3ld-E4vaysgQ=s0-d-e1-ft#http://t.ac.travelocity.com/res/img/3ADA9A8A70AF804A0C9881203F5032FE.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.galleryImg5{
+    background: url('https://ci6.googleusercontent.com/proxy/T87PCRpO7lOFIUsNjCnU0zG72nlivGnS9Omw7p8yTk9zDw86y1PLIUDB9kqmEu6J-myJpQ8xAki538j8dAJiDGAMkzxCZO5EZj1CIvSPa94PHQQBabrLZ47RxQ=s0-d-e1-ft#http://t.ac.travelocity.com/res/img/4C0462A5B998C42D6AB8EB53780DDF5B.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.galleryImg6{
+    background: url('https://ci3.googleusercontent.com/proxy/C-k4Js7hAcOn-1JXAYKVmBDc96lWQvSo0UntZCFiCO8CEJZR6mYcMEkCnx3kUKVXmgEPD-LlqFF2MIHsv3ds4PjrxCu62SHPKXXuyQozBfeCpdYsiBCxU3HFuw=s0-d-e1-ft#http://t.ac.travelocity.com/res/img/37845D2A409BBC39B91EAC20308962A3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+   
+}
+
+.footerBanner{
+    background: url('http://t.ac.travelocity.com/res/img/4CDFDAA28CBF18B137262BAE9819722C.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+
+
+
+
+</style>
+<body>
+    <center class="wrapper">
+        <div class="webkit">
+            <table class="outer">
+                <div class="blueBar" style="background-color: #3ba7cc; height: 10px;width: 622px;"></div>
+                <tr style="background-color: #003e74;">
+                    <td>
+                        <table max-width="600px" style="border-spacing: 0;background-color: #003e74;">
+                        <tr>
+                            <div class="logoImg" style="width: 162px;background-color: #003e74;"></div>
+                            <td>
+                                <div style="padding-left:35px;padding-bottom: 10px;display: flex;justify-content: center;align-items: center;align-content: center;" class="navbar">
+                                    <a href="#">Home</a>
+                                    <a href="#">Flights</a>
+                                    <a href="#">Packages</a>
+                                    <a href="#">Cars</a>
+                                    <a href="#">Cruise</a>
+                                    <a href="#">Things to do</a>
+                                </div>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="covidMessage">
+                    <td style="background-color: #003e74;padding: 10px;justify-content: center;">
+                        <a style="color: #fff;margin: 50px;text-align: center;"><ion-icon name="information-circle-outline" style="font-size: 20px;margin-right: 10px;"></ion-icon>What you should know about travel + COVID-19 >></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0;">
+                        <div class="emailImage"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color: #003e74;display: flex;flex-direction: column; Margin: 0 auto; color: #fff;text-align: center;padding: 20px;font-family: 'Open sans', sans-serif;">
+                        We found you American Airlines deals. Plan your next getaway.
+                        <button class="viewFlights" style="width: 30%;Margin: 0 auto;font-family: 'Open sans', sans-serif;  margin-top: 3%;border-color: #80a0ba;">View Flights</button>
+                    </td>
+                </tr>
+                <tr class="flightOptions" style="background-color: #fff;">
+                    <td class="airlines" style="text-align: center;padding-top: 3%;" width="600">
+                        <button style="text-transform: uppercase;font-weight:bold;width: 180px; font-size: 18px; background-color:#fff;display: inline-block;Margin:5px;color: #3ba7cc;border-color: #3ba7cc;padding-bottom: 12px;padding-top: 12px;vertical-align: middle;border-width: 1px;">United Airlines</button>
+                        <button style="text-transform: uppercase;font-weight:bold;width: 180px; font-size: 18px; background-color:#fff;display: inline-block;Margin:5px;color: #3ba7cc;border-color: #3ba7cc;padding-bottom: 12px;padding-top: 12px;vertical-align: middle;border-width: 1px;">Delta Flights</button>
+                        <button style="text-transform: uppercase;font-weight:bold;width: 180px; font-size: 18px; background-color:#fff;display: inline-block;Margin:5px;color: #3ba7cc;border-color: #3ba7cc;padding-bottom: 12px;padding-top: 12px;vertical-align: middle;border-width: 1px;">Alaska Airlines</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color: #fff;padding-top: 25px;text-align: center;">
+                        <span style="letter-spacing: .025em;width:600px;color: #003e74;padding: 5px;font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif;font-size: 30px;"><strong style="padding-right: 10px;">THIS</strong>or<strong style="padding-left: 10px;">THAT?</strong></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="photoGallery" style="background-color: #fff;padding-top: 25px;text-align: center;display: grid;grid-template-columns: 2fr 50%;Margin: 0 auto;padding-bottom: 5%;">
+                        <div class="galleryImg1" style="Margin: 5x;"></div>
+                        <div class="galleryImg2" style="Margin: 5px;"></div>
+                        <div class="galleryImg3" style="Margin: 5px;"></div>
+                        <div class="galleryImg4" style="Margin: 5px;"></div>
+                        <div class="galleryImg5" style="Margin: 5px;"></div>
+                        <div class="galleryImg6" style="Margin: 5px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color: #fff;display: flex;justify-content:space-evenly;align-items: center;padding-bottom: 20px;">
+                        <div class="socialMediaIcons">
+                            <ion-icon name="logo-facebook" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.522);border-radius: 50px;padding: 10px;" width="28"></ion-icon>
+                            <ion-icon name="logo-twitter" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.542);border-radius: 50px;padding: 10px;" width="28"></ion-icon>
+                            <ion-icon name="logo-instagram" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.549);border-radius: 50px;padding: 10px;" width="28"></ion-icon>
+                        </div>
+                        <div class="downloadApp" style="display:flex;flex-direction: row;align-items: center;">
+                            <ion-icon name="phone-portrait-outline" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.542);border-radius: 50px;padding: 10px;" width="28"></ion-icon><p style="color:#003e74;padding-left:4px;font-family: Roboto ,sans-serif;">Download our app</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="background-color: #fff;">
+                    <td>
+                        <div class="footerLinks" style="display: flex;justify-content: space-evenly;font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif;">
+                            <a href="#" style="text-decoration: none; color: #003e74;">My Account</a>
+                            <a href="#" style="text-decoration: none; color: #003e74;">Update Preferences</a>
+                            <a href="#" style="text-decoration: none; color: #003e74;">Unsubscribe</a>
+                            <a href="#" style="text-decoration: none; color: #003e74;">Customer Care</a>
+                        </div>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="footerBottom" style="font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif;text-align: center;">
+                            <p style="color: rgba(128, 128, 128, 0.542);"><a href="" style="color: #003e74;text-decoration: none;">View in browswer.</a> You have subscribed to receive promotional emails from Travelocity.com.</p>
+                            <p style="color: rgba(128, 128, 128, 0.542);"><a href="" style="color: #003e74;text-decoration: none;">wwww.travelocity.com</a>1111 Expedia Group Way W., Seattle, WA 98119, USA</p>
+                            <p style="color: rgba(128, 128, 128, 0.542);">© 1996–2021 Travelscape LLC. All rights reserved. Travelocity, the Stars Design, and The Roaming Gnome Design are trademarks of Travelscape LLC. Use of this Web site constitutes acceptance of the Travelocity <a style="color: #003e74;">User Agreement</a> and <a style="color: #003e74;">Privacy Policy.</a> CST# 2083930-50</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="max-width: 600px;">
+                    <td class="footerBanner"></td>
+                </tr>
+            </table>
+            <tr>
+                <td>
+                    <div style="width:588px;padding-left:35px;padding-bottom: 10px;display: flex;justify-content: center;align-items: center;align-content: center;background-color: #003e74;position: relative;bottom: 60px;" class="navbar">
+                        <a href="#">Home</a>
+                        <a href="#">Flights</a>
+                        <a href="#">Packages</a>
+                        <a href="#">Cars</a>
+                        <a href="#">Cruise</a>
+                        <a href="#">Things to do</a>
+                    </div>
+                </td>
+            </tr>
+            <div class="blueBar" style="background-color: #3ba7cc; height: 10px;width: 623px;padding: 0;margin: 0px;position: relative;bottom: 60px;"></div>
+        </div>
+    </center>
+</body>
