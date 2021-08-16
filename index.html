@@ -10,6 +10,233 @@
 </head>
 <style type="text/css">
 
+/* media queries */
+
+
+@media only screen and (max-device-width: 479px) {
+        /* 479px and lower */
+		/* smaller-mobile-specific CSS styles go here */
+
+
+        .logoImg{
+            width: 500px!important;
+        }
+
+        .navbar{
+            width: 605px!important;
+            padding-left: 39px!important;
+        }
+
+        .navbar a{
+            letter-spacing: .025em;
+            font-family: 'Arial', sans-serif;
+            color: #FFFFFF;
+            text-decoration: none;
+            line-height: 35px;
+            font-weight: 100;
+            display: block;
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+        .navbar a:nth-child(5){
+            display: none;
+        }
+
+        .navbar a:nth-child(6){
+            display: none;
+        }
+
+        .covidMessage a{
+            font-size: 20px;
+        }
+
+        .airlineDeals{
+            font-size: 32px;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .viewFlights{
+            background-color: #004074;
+            border: 2px solid #80a0ba;
+            border-radius: 4px;
+            color: #ffffff;
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+            font-size: 35px!important;
+            font-weight: bold;
+            line-height: 100px;
+            text-align: center;
+            text-decoration: none;
+            width: 440px!important;
+            -webkit-text-size-adjust: none;
+            letter-spacing: 0.5px;
+        }
+
+        .airlines{
+            width: 100%!important;
+            padding: 0;
+            text-align: left;
+            padding-top: 22px;
+            padding-bottom: 8%;
+        }
+
+        .airlines button{
+            width: 600px!important;
+            padding-top: 25px!important;
+            padding-bottom: 25px!important;
+            font-size: 30px!important;
+        }
+
+        span{
+            margin-top: 10%;
+        }
+
+        span strong{
+            padding-top: 20px;
+            font-size: 60px;
+            line-height: 30px;
+            letter-spacing: .025em;
+            font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+            color: #003e74;
+        }
+
+        .footerLinks a{
+            font-size: 18px;
+        }
+
+        .socialMediaIcons ion-icon{
+            font-size: 20px;
+        }
+
+        .downloadApp ion-icon{
+            font-size: 20px;
+        }
+
+        .footerBottom p{
+            font-size: 16px;
+        }
+
+        .blueBar{
+            width: 644px!important;
+            
+        }
+
+}
+
+@media only screen and (max-device-width: 640px) {
+        /* 640px and lower */
+		/* tablet-larger phone CSS styles go here */
+
+        .logoImg{
+            width: 500px!important;
+        }
+
+        .navbar{
+            width: 605px!important;
+            padding-left: 39px!important;
+        }
+
+        .navbar a{
+            letter-spacing: .025em;
+            font-family: 'Arial', sans-serif;
+            color: #FFFFFF;
+            text-decoration: none;
+            line-height: 35px;
+            font-weight: 100;
+            display: block;
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+        .navbar a:nth-child(5){
+            display: none;
+        }
+
+        .navbar a:nth-child(6){
+            display: none;
+        }
+
+        .covidMessage a{
+            font-size: 20px;
+        }
+
+        .airlineDeals{
+            font-size: 32px;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .viewFlights{
+            background-color: #004074;
+            border: 2px solid #80a0ba;
+            border-radius: 4px;
+            color: #ffffff;
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+            font-size: 35px!important;
+            font-weight: bold;
+            line-height: 100px;
+            text-align: center;
+            text-decoration: none;
+            width: 440px!important;
+            -webkit-text-size-adjust: none;
+            letter-spacing: 0.5px;
+        }
+
+        .airlines{
+            width: 100%!important;
+            padding: 0;
+            text-align: left;
+            padding-top: 22px;
+            padding-bottom: 8%;
+        }
+
+        .airlines button{
+            width: 600px!important;
+            padding-top: 25px!important;
+            padding-bottom: 25px!important;
+            font-size: 30px!important;
+        }
+
+        span{
+            margin-top: 10%;
+        }
+
+        span strong{
+            padding-top: 20px;
+            font-size: 60px;
+            line-height: 30px;
+            letter-spacing: .025em;
+            font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+            color: #003e74;
+        }
+
+        .footerLinks a{
+            font-size: 18px;
+        }
+
+        .socialMediaIcons ion-icon{
+            font-size: 20px;
+        }
+
+        .downloadApp ion-icon{
+            font-size: 20px;
+        }
+
+        .footerBottom p{
+            font-size: 16px;
+        }
+
+        .blueBar{
+            width: 644px!important;
+            
+        }
+
+
+	}
+
 body{
     margin: 0;
     padding: 0;
@@ -160,7 +387,7 @@ img{
                             <div class="logoImg" style="width: 162px;background-color: #003e74;"></div>
                             <td>
                                 <div style="padding-left:35px;padding-bottom: 10px;display: flex;justify-content: center;align-items: center;align-content: center;" class="navbar">
-                                    <a href="#">Home</a>
+                                    <a href="#">Hotels</a>
                                     <a href="#">Flights</a>
                                     <a href="#">Packages</a>
                                     <a href="#">Cars</a>
@@ -184,7 +411,7 @@ img{
                 </tr>
                 <tr>
                     <td style="background-color: #003e74;display: flex;flex-direction: column; Margin: 0 auto; color: #fff;text-align: center;padding: 20px;font-family: 'Open sans', sans-serif;">
-                        We found you American Airlines deals. Plan your next getaway.
+                        <p class="airlineDeals">We found you American Airlines deals. Plan your next getaway.</p>
                         <button class="viewFlights" style="width: 30%;Margin: 0 auto;font-family: 'Open sans', sans-serif;  margin-top: 3%;border-color: #80a0ba;">View Flights</button>
                     </td>
                 </tr>
