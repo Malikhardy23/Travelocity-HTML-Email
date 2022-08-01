@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>HTML Email</title>
+    <title>Travelocity HTML Email</title>
 </head>
 <style type="text/css">
 
@@ -106,8 +105,9 @@
             font-size: 18px;
         }
 
-        .socialMediaIcons ion-icon{
+        .socialMediaIcons{
             font-size: 20px;
+            display: flex;
         }
 
         .downloadApp ion-icon{
@@ -217,8 +217,9 @@
             font-size: 18px;
         }
 
-        .socialMediaIcons ion-icon{
+        .socialMediaIcons{
             font-size: 20px;
+            display: flex;
         }
 
         .downloadApp ion-icon{
@@ -296,6 +297,11 @@ img{
     background-repeat: no-repeat;
     margin: 0 auto;
     padding: 0;
+}
+
+.socialMediaIcons{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .viewFlights{
@@ -378,7 +384,7 @@ img{
 <body>
     <center class="wrapper">
         <div class="webkit">
-            <table class="outer">
+            <table class="outer" cellspacing="0" cellpadding="0" role="presentation">
                 <div class="blueBar" style="background-color: #3ba7cc; height: 10px;width: 622px;"></div>
                 <tr style="background-color: #003e74;">
                     <td>
@@ -440,12 +446,12 @@ img{
                 <tr>
                     <td style="background-color: #fff;display: flex;justify-content:space-evenly;align-items: center;padding-bottom: 20px;">
                         <div class="socialMediaIcons">
-                            <ion-icon name="logo-facebook" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.522);border-radius: 50px;padding: 10px;" width="28"></ion-icon>
-                            <ion-icon name="logo-twitter" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.542);border-radius: 50px;padding: 10px;" width="28"></ion-icon>
-                            <ion-icon name="logo-instagram" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.549);border-radius: 50px;padding: 10px;" width="28"></ion-icon>
+                            <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" style="display:block;width: 30px;" width="30">
+                            <img src="https://seeklogo.com/images/T/twitter-icon-square-logo-108D17D373-seeklogo.com.png" style="display: block;width: 30px;" width="30">
+                            <img src="https://png.pngtree.com/element_our/md/20180626/md_5b321ca3631b8.png" style="display: block;width:30px" width="30">
                         </div>
                         <div class="downloadApp" style="display:flex;flex-direction: row;align-items: center;">
-                            <ion-icon name="phone-portrait-outline" style="background-color: rgb(206, 206, 206); color:rgba(44, 44, 44, 0.542);border-radius: 50px;padding: 10px;" width="28"></ion-icon><p style="color:#003e74;padding-left:4px;font-family: Roboto ,sans-serif;">Download our app</p>
+                        <img src="https://www.kindpng.com/picc/m/3-31823_transparent-black-phone-icon-png-tel-icon-png.png" style="width: 28px;display: block;" width="28"><p style="color:#003e74;padding-left:4px;font-family: Roboto ,sans-serif;">Download our app</p>
                         </div>
                     </td>
                 </tr>
